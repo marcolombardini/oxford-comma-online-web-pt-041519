@@ -3,7 +3,7 @@ array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychees", "p
 def oxford_comma(array)
   if array.length == 1
     array.join
-  elsif array == 2 
+  elsif array.length == 2 
   array.join(" and ")
   end
 end
