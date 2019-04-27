@@ -5,7 +5,7 @@ def oxford_comma(array)
     array.join
   elsif array.length == 2 
   array.join(" and ")
-  elsif array[0..4].join(", ")
+  elsif array.length
   array[-1].insert(0, "and ")
   end
 end
