@@ -6,4 +6,3 @@ def oxford_comma(array)
    if arrays = array[0..1].join(",")
   arrays.include()
 end
-end
