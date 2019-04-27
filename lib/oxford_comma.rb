@@ -2,6 +2,6 @@ array = ["kiwi", "durian", "starfruit", "mangos", "dragon fruits", "lychees", "p
 
 def oxford_comma(array)
   if array == 0
-  return array.first
+  return array
   end
 end
